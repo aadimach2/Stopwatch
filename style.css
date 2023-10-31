@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.container{
+    height:100vh;
+    background-color: rgb(150, 210, 224);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  
+  
+}
+.clock{
+    color:rgb(212, 28, 28);
+    font-size:4rem;
+    padding:3rem;
+ 
+
+}
+button{
+    padding:1.25rem;
+    width:200px;
+    border:none;
+    cursor:pointer;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+    background-color: blueviolet;
+    border-radius:30px;
+    margin:30px;
+    font:100 2rem sans-serif;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: rgb(86, 46, 123);
+   
+}
